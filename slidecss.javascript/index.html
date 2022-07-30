@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.slide.css">
+    <title>Slide CSS</title>
+</head>
+<body>
+    
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+    
+                <div class="slide s1">
+                  <picture> <a href="index.cont.html"><source media="(max-width: 800px)" srcset="contato.jpg"><img src="contato.jpg" alt="Contato"></a></picture>
+                </div>
+                <div class="slide">
+                  <picture> <a href="index.cert.html"><source media="(max-width: 800px)" srcset="certificados.jpg"><img src="certificados.jpg" alt="Certificados"></a> </picture>
+                </div>
+                <div class="slide">
+                  <picture> <a href="index.port.html"><source media="(max-width: 800px)" srcset="portifolio.jpg"> <img src="portifolio.jpg" alt="Portifólio"></a></picture>
+                </div>
+                <div class="slide">
+                  <picture> <a href="#"><source media="(max-width: 800px)" srcset="cvempdf.jpg"> <img src="cvempdf.jpg" alt="C.V em PDF"></a></picture>
+                </div>
+            </div>
+    
+            <div class="navigation">
+    <label class="barr" for="slide1"></label>
+    <label class="barr" for="slide2"></label>
+    <label class="barr" for="slide3"></label>
+    <label class="barr" for="slide4"></label>
+            </div>
+        </div>
+</body>
+</html>
